@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_layout_onclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="displayToast"
+        android:text="@string/display_toast"/>
+
+    <Button
+        android:id="@+id/btn_click_counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="countClicksHandler"
+        android:text="@string/advance_count"/>
+
+
+    <TextView
+        android:id="@+id/tv_click_counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="@string/zero"/>
+
+    <Button
+        android:id="@+id/btn_click_counter_synth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="countClicksHandlerSynth"
+        android:text="@string/advance_count"/>
+
+
+    <TextView
+        android:id="@+id/tv_click_counter_synth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="@string/zero"/>
+
+    <Button
+        android:id="@+id/btn_start_second_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startSecondActivity"
+        android:text="@string/start_second_activity"/>
+
+</LinearLayout>

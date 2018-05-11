@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirstKotlinApp</string>
+    <string name="display_toast">Display Toast</string>
+    <string name="zero">0</string>
+    <string name="advance_count">Advance Count</string>
+    <string name="start_second_activity">Start Second Activity</string>
+</resources>
